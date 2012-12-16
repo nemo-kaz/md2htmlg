@@ -28,3 +28,4 @@ htmlFile=new File(args[0]+".html").newWriter()
 htmlFile.writeLine(html)
 htmlFile.close()
 
+println "Markdown to HTML conversion done! "
