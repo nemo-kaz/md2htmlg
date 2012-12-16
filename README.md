@@ -1,7 +1,8 @@
 md2htmlg
 ========
 
-markdown to html converter 
+markdown to html converter with groovy language
+Uses markdownj library.
 
 Paramters
 ----------------
