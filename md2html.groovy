@@ -12,7 +12,7 @@ import com.petebevin.markdown.*
 
 if (args.length ==0) {
     println """Markdown to HTML converter
-Usage: md2html.groovy <Makrdown filename>"""
+Usage: md2html.groovy <Markdown filename>"""
     return   
 } 
 m = new MarkdownProcessor(); 
