@@ -5,14 +5,13 @@
 
 
 @Grapes([
-//    @Grab('org.markdownj:markdownj:0.3.0-1.0.2b4')
-      @Grab('org.markdownj:markdownj:latest.release')
+      @Grab('org.markdownj:markdownj-core:0.4')
 ])
-import com.petebevin.markdown.*
+import org.markdownj.*
 
 if (args.length ==0) {
     println """Markdown to HTML converter
-Usage: md2html.groovy <Makrdown filename>"""
+Usage: md2html.groovy <Markdown filename>"""
     return   
 } 
 m = new MarkdownProcessor(); 
